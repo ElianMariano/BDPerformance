@@ -2,7 +2,7 @@
 Imagem Docker que inicia um SGBD postgresql com dados pré-inseridos do Portal da Transparência com o objetivo de estudar performance de Banco de Dados.
 
 ## Como Criar a imagem
-Para criar uma imagem com o *SGBD* *PostgreSQL* os *scripts* necessários para a importação dos dados, basta executar o seguinte comando:
+Para criar uma imagem com o *SGBD* *PostgreSQL* e os *scripts* necessários para a importação dos dados, basta executar o seguinte comando:
 > sudo docker build -t postgre-docker .
 
 ## Executar um container a partir da imagem
